@@ -1,0 +1,42 @@
+name: Fetch substitution plans
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-plans
+  cancel-in-progress: false
+
+jobs:
+  fetch-plans:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch and save plans
+        run: python main.py
+        env:
+          DSB_USER: ${{ secrets.DSB_USER }}
+          DSB_PASS: ${{ secrets.DSB_PASS }}
+          DSB_TEACHER_USER: ${{ secrets.DSB_TEACHER_USER }}
+          DSB_TEACHER_PASS: ${{ secrets.DSB_TEACHER_PASS }}
+          DISCORD_WEBHOOK_WARN: ${{ secrets.DISCORD_WEBHOOK_WARN }}
+          DISCORD_WEBHOOK_PLANS: ${{ secrets.DISCORD_WEBHOOK_PLANS }}
+          DISCORD_PING_ROLE_ID: ${{ secrets.DISCORD_PING_ROLE_ID }}
