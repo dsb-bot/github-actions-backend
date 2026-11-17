@@ -1,13 +1,13 @@
 {
   "student": {
-    "https://dsbmobile.de/data/186f7688-2ec3-4b7f-b265-0f006cd44ef7/5fe8c2ba-a5df-4428-bcfb-b6425894871d/subst_001.htm": {
-      "detail": "https://dsbmobile.de/data/186f7688-2ec3-4b7f-b265-0f006cd44ef7/5fe8c2ba-a5df-4428-bcfb-b6425894871d/subst_001.htm",
-      "date": "16.11.2026 12:43",
+    "https://dsbmobile.de/data/186f7688-2ec3-4b7f-b265-0f006cd44ef7/4cef7130-fb6c-4e6f-9e29-99f46fb208ec/subst_001.htm": {
+      "detail": "https://dsbmobile.de/data/186f7688-2ec3-4b7f-b265-0f006cd44ef7/4cef7130-fb6c-4e6f-9e29-99f46fb208ec/subst_001.htm",
+      "date": "17.11.2026 11:16",
       "title": "DSB App Schüler"
     },
-    "https://dsbmobile.de/data/186f7688-2ec3-4b7f-b265-0f006cd44ef7/570461fc-15da-43bd-8a41-dcd2c03006ba/subst_001.htm": {
-      "detail": "https://dsbmobile.de/data/186f7688-2ec3-4b7f-b265-0f006cd44ef7/570461fc-15da-43bd-8a41-dcd2c03006ba/subst_001.htm",
-      "date": "16.11.2026 12:43",
+    "https://dsbmobile.de/data/186f7688-2ec3-4b7f-b265-0f006cd44ef7/f0221379-97a5-4e4c-8249-4ae289c69ba4/subst_001.htm": {
+      "detail": "https://dsbmobile.de/data/186f7688-2ec3-4b7f-b265-0f006cd44ef7/f0221379-97a5-4e4c-8249-4ae289c69ba4/subst_001.htm",
+      "date": "17.11.2026 11:16",
       "title": "DSB App SuS morgen"
     }
   },
@@ -15,20 +15,26 @@
     "converted_Lehrer_20261119_1": {
       "detail": "converted_Lehrer_20261119_1",
       "title": "19.11.2026 Donnerstag, Woche B",
-      "date": "2026-11-17T03:29:36.328633",
-      "original_url": "https://dsbmobile.de/data/e7cc7c70-5388-4899-92b8-c92b5ec692bb/cce5571d-1b11-40b4-8bb4-4550a60c16c9/cce5571d-1b11-40b4-8bb4-4550a60c16c9.htm"
+      "date": "2026-11-17T12:22:26.847133",
+      "original_url": "https://dsbmobile.de/data/e7cc7c70-5388-4899-92b8-c92b5ec692bb/74724a96-8296-45a6-8366-c6f79343e018/74724a96-8296-45a6-8366-c6f79343e018.htm"
     },
     "converted_Lehrer_20261120_2": {
       "detail": "converted_Lehrer_20261120_2",
       "title": "20.11.2026 Freitag, Woche B",
-      "date": "2026-11-17T03:29:36.337014",
-      "original_url": "https://dsbmobile.de/data/e7cc7c70-5388-4899-92b8-c92b5ec692bb/cce5571d-1b11-40b4-8bb4-4550a60c16c9/cce5571d-1b11-40b4-8bb4-4550a60c16c9.htm"
+      "date": "2026-11-17T12:22:26.858522",
+      "original_url": "https://dsbmobile.de/data/e7cc7c70-5388-4899-92b8-c92b5ec692bb/74724a96-8296-45a6-8366-c6f79343e018/74724a96-8296-45a6-8366-c6f79343e018.htm"
     },
     "converted_Lehrer_20261123_3": {
       "detail": "converted_Lehrer_20261123_3",
       "title": "23.11.2026 Montag, Woche A",
-      "date": "2026-11-17T03:29:36.343375",
-      "original_url": "https://dsbmobile.de/data/e7cc7c70-5388-4899-92b8-c92b5ec692bb/cce5571d-1b11-40b4-8bb4-4550a60c16c9/cce5571d-1b11-40b4-8bb4-4550a60c16c9.htm"
+      "date": "2026-11-17T12:22:26.866989",
+      "original_url": "https://dsbmobile.de/data/e7cc7c70-5388-4899-92b8-c92b5ec692bb/74724a96-8296-45a6-8366-c6f79343e018/74724a96-8296-45a6-8366-c6f79343e018.htm"
+    },
+    "converted_Lehrer_20261124_4": {
+      "detail": "converted_Lehrer_20261124_4",
+      "title": "24.11.2026 Dienstag, Woche A",
+      "date": "2026-11-17T12:22:26.881196",
+      "original_url": "https://dsbmobile.de/data/e7cc7c70-5388-4899-92b8-c92b5ec692bb/74724a96-8296-45a6-8366-c6f79343e018/74724a96-8296-45a6-8366-c6f79343e018.htm"
     }
   }
 }
